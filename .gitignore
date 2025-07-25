@@ -1,4 +1,6 @@
 /target
 build/
+.cache/
 *.o
 OpenGLExperiment
+compile_commands.json
