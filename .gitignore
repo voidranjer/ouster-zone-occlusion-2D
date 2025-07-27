@@ -1,6 +1,54 @@
-/target
+# Build directories
 build/
-.cache/
+out/
+/target
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+
+# Compiled object files
 *.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executable files
 OpenGLExperiment
+*.exe
+
+# IDE and editor files
+.vscode/
+.vs/
+*.user
+*.vcxproj.user
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cache and temporary files
+.cache/
+*.tmp
+*.temp
+
+# Clang/LSP files
 compile_commands.json
+.clangd
+.ccls-cache/
+
+# Other
+*.log
